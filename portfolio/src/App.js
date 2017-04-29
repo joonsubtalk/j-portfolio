@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Home from './Home.jsx';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './components/Home.jsx';
+import Header from './components/o-Header';
 import About from './About.jsx';
 import './App.scss';
-
 class App extends Component {
 
 	render() {
 		return (
 			<Router>
 				<div>
-					<ul>
-						<li><Link to="/">Home</Link></li>
-						<li><Link to="/about">About</Link></li>
-					</ul>
-					<hr />
+					<Header />
 
 					<Route exact path="/" component={Home}/>
 					<Route exact path="/about" component={About}/>
