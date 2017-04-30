@@ -6,11 +6,11 @@ class Header extends Component {
 
 	render() {
 		return (
-			<header>
-				<nav>
-					<ul>
-						<li><Link to="/">Home</Link></li>
-						<li><Link to="/about">About</Link></li>
+			<header className="o-header">
+				<nav className="o-header-nav">
+					<ul className="o-header-list">
+						<li className="navItem"><Link to="/">Home</Link></li>
+						<li className="navItem"><Link to="/about">About</Link></li>
 					</ul>
 				</nav>
 			</header>

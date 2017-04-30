@@ -1,0 +1,25 @@
+/*
+ * o-Header
+ * 
+ * Adds a Header
+ */
+
+ .o-header {
+	width: 100%;
+
+	&-nav {
+
+	}
+	
+	&-list {
+		list-style: none;
+	}
+ }
+
+/* 
+ * navItem
+ * TODO: Can probably be moved to its separate style
+ */
+ .navItem {
+	display: inline;
+ }
