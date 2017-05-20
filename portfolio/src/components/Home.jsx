@@ -1,9 +1,8 @@
 import React from 'react';
-import Module from './o-Module.jsx';
+import './Home.scss';
 
 const Home = () => (
-	<div>
-		<Module />
+	<div className="">
 		<section className="module">
 			<div className="c-biography">
 				<div className="">
@@ -16,6 +15,20 @@ const Home = () => (
 					The experience left me with a greater interest in user interface and expanding my knowledge in web development.
 					</p>
 				</div>
+			</div>
+		</section>
+		{/* Education */}
+		<section className="">
+			<div className="">
+
+			</div>
+		</section>
+		{/* Line of Work */}
+		<section className="">
+			<div className="">
+				<h2>Let's start something.</h2>
+				<p>Whether you have an idea, getting married and want customizations, or starting a brand new side project. I'd love to work with you. Hit me up and let's see where we can take it.</p>
+				<button>Hit</button>
 			</div>
 		</section>
 	</div>

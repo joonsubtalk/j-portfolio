@@ -1,8 +1,22 @@
 /* Variables */
 
+/* Colors */
+$brandDanger: #ff0000;
+
+$brandRed: #a5061c;
+$brandOffRed: #940b1e;
+$brandText: #ff0000;
+
+$white: #ffffff;
+
 //$NO_MOBILE: (max-width: 767px)
 $TABLET_WIDTH: 768px;
 $MOBILE_WIDTH: 320px;
+
+$device-xs: 540px;
+$device-sm: 768px;
+$device-md: 992px;
+$device-lg: 1200px;
 
 @mixin tablet {
 	@media (max-width: #{$TABLET_WIDTH}) {
